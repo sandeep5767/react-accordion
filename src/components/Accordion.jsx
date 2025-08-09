@@ -11,6 +11,7 @@ const Accordion = () => {
     setData(faq)
   }, [])
 
+  // here we are comparing the previous id with the id which is clicked and do comparison
   const onToggele =(id)=>{
     setIsActive((prevId)=>(prevId===id ? false:id))
   }
